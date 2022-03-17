@@ -55,23 +55,6 @@ pidof dnscrypt-proxy
 ```
 will return a number.
 
-# How to report issue:
-I need following directory and files:
-```
-/jffs/dnscrypt
-/jffs/scripts/dnsmasq.postconf
-```
-One can use this command to create a tar archive of these files:
-```
-echo .config > exclude-files; tar -cvf dnscrypt.tar -X exclude-files /jffs/dnscrypt /jffs/scripts/dnsmasq.postconf; rm exclude-files
-```
-in current directory and send me the archive for debug.
-
-I also need following information:
-- Which dns server you selected during dnscrypt installation
-- Which router you're using
-- Firmware and its version
-
 # How I made this:
 - Use dnscrypt-proxy binary packages from https://github.com/jedisct1/dnscrypt-proxy
 - Compiling and stripping required binaries using firmware building toolchain from asuswrt-merlin
