@@ -1,4 +1,4 @@
-This fork is the last commit prior to making dnscrypt run as a "service", which caused dnsmasq to restart whenever dnscrypt was started.
+This fork is the <a href="https://github.com/thuantran/dnscrypt-asuswrt-installer/tree/e76af9187cc06e2c288957e3c1232704597a44e9">last commit</a> prior to making dnscrypt run as a "service", which caused dnsmasq to restart whenever dnscrypt was started.
 
 <a href="https://ibb.co/3CmV5dX"><img src="https://i.ibb.co/nLM4qm2/installer.jpg" alt="installer" border="0"></a>
 
