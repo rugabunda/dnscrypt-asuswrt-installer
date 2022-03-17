@@ -29,7 +29,7 @@ To resolve all problems associated with installing Dnscrypt-Proxy with Entware (
 - Improved Installer/Update/Backup Functions.
 
 # Changelog:
-https://github.com/thuantran/dnscrypt-asuswrt-installer/commits/master
+https://github.com/rugabunda/dnscrypt-asuswrt-installer/commits/master
 
 # Install/Update/Reconfig/Uninstall:
 Run this command from ssh shell and following the prompt for dnscrypt-proxy version 2:
